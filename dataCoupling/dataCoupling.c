@@ -10,8 +10,25 @@
  *                            This data of 2byte can not be send once.
  *                            It is splited every 1byte data, when the serial is send.
  *
- * License            :
  * Copyright          : Copyright (C) 2016 5ide6urns lab All right reserved.
+ *
+ * License            : This program is free software; you can redistribute it
+ *                      and/or modify it under the terms of the GNU General Public
+ *                      License as published by the Free Software Foundation;
+ *                      either version 2 of the License, or (at your option) any
+ *                      later version.
+ *
+ *                      This program is distributed in the hope that it will be
+ *                      useful, but WITHOUT ANY WARRANTY; without even the implied
+ *                      warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+ *                      PURPOSE. See the GNU General Public License for more
+ *                      details.
+ *
+ *                      You should have received a copy of the GNU General Public
+ *                      License along with this program; if not, write to the Free
+ *                      Software Foundation, Inc., 59 Temple Place, Suite 330,
+ *                      Boston, MA 02111-1307 USA
+ *
  * History            : 02/29/2016 v1.00 Show Kawabata Create on.
  *                      03/11/2016 v1.01 Show Kawabata [Bug fix] check the start bit of send data.
  **************************************************************************/
