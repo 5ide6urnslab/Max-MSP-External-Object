@@ -24,8 +24,11 @@ https://github.com/5ide6urnslab/Max-MSP-External-Object
 An example project is provided in the **/example/** folder.
 <br>
 ##### datacoupling
-This example "DataCoupling" couple data of 2 byte, when Arduino UNO is transmitted data of 2 byte by every other byte. You must use 1st data "0x7E" of Serial communication as prefix, so Max/MSP find out starting position of Serial data. And Serial data must is used Big endian for data coupling.
+This example "DataCoupling" couple data of 2 byte, when Arduino UNO is transmitted data of 2 byte by every other byte. You must use 1st data "0x7E" of Serial communication as prefix, so Max/MSP find out starting position of Serial data. And Serial data must is used Big endian for data coupling.  
+
+<img class="photo" src="https://github.com/5ide6urnslab/Max-MSP-External-Object/blob/master/resource/dataCoupling.png" width="400px" />
 <br>
+
 ##### convertBpm2Ms
 This example is exchanged BPM to Millisecond using Pulse Sensor(and Arduino). We are currently developing that.
 
