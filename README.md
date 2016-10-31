@@ -30,8 +30,7 @@ This example "DataCoupling" couple data of 2 byte, when Arduino UNO is transmitt
 This example is exchanged BPM to Millisecond using Pulse Sensor(and Arduino). We are currently developing that.
 
 ## Copyright
-© 1990- All Rights Reserved.  Max is a trademark of Cycling ’74/IRCAM, l’Institut de Recherche et Coo¨rdination Acoustique/Musique.  
-   https://cycling74.com
+© 1990- All Rights Reserved.  Max is a trademark of Cycling ’74/IRCAM, l’Institut de Recherche et Coo¨rdination Acoustique/Musique. https://cycling74.com
 
 ## License
 ##### About this manual.
