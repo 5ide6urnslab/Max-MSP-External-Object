@@ -3,10 +3,10 @@ This repo is the library for Max/MSP that runs between Devices(Arduino etc.) and
 
 ## Description
 ##### dataCoupling
-This dataCoupling is the library for Max/MSP that runs between Devices and Max/MSP. This library couple data of 2 byte, when Device is transmitted data of 2 byte by every other byte. You must use 1st data "0x7E" of Serial communication as prefix, so Max/MSP find out starting position of Serial data. And Serial data must be used Big endian for data coupling. (ex.) Serial communication of Arduino is transmitted data every other byte. So data of 2 byte divide 1 byte to transmit.
+This dataCoupling is the library for Max/MSP that runs between Devices and Max/MSP. This library couple data of 2 byte, when Device is transmitted data of 2 byte by every other byte. You must use 1st data "0x7E" of Serial communication as prefix, so Max/MSP find out starting position of Serial data. And Serial data must be used Big endian for data coupling. (e.g.) Serial communication of Arduino is transmitted data every other byte. So data of 2 byte divide 1 byte to transmit.
 
 ##### convertBpm2Ms
-This convertBpm2Ms is the library for Max/MSP that runs between Devices and Max/MSP. This library exchange BPM to Millisecond. (ex.) Pulse Sensor etc.
+This convertBpm2Ms is the library for Max/MSP that runs between Devices and Max/MSP. This library exchange BPM to Millisecond. (e.g.) Pulse Sensor etc.
 
 ## Installation
 (1) To use the above library, first you need to download and install  
