@@ -99,11 +99,9 @@ void ext_main(void *r)
 	class_register(CLASS_BOX, c);
 	convertBpm2Ms_class = c;
 
-//-----------------------------------------------------------------------
 #ifdef DEBUG
 	post(" convertBpm2Ms object loaded... ", 0);
 #endif
-//-----------------------------------------------------------------------
     
     return;
 }
@@ -197,11 +195,9 @@ void *convertBpm2Ms_new(long n)
     // set initial (default) left operand value in the instance's data structure.
     x->p_value = 0.0;
 
-//-----------------------------------------------------------------------
 #ifdef DEBUG
     post(" Max/MSP External Object convertBpm2Ms Instance added to patch... ",0);
 #endif
-//-----------------------------------------------------------------------
     
 	return (x);
 }
@@ -219,11 +215,9 @@ void *convertBpm2Ms_new(long n)
  ***********************************************************************/
 void convertBpm2Ms_int(t_convertBpm2Ms *x, long n){
 
-//-----------------------------------------------------------------------
 #ifdef DEBUG
     post(" A BPM data is %ld ",n);
 #endif
-//-----------------------------------------------------------------------
     
     /*  [Note]: A BPM is converted a time (ms = note length).
      *
@@ -235,11 +229,9 @@ void convertBpm2Ms_int(t_convertBpm2Ms *x, long n){
     float ms   = (4/4) * 1000 * (60 / (float)n);        // [v1.01]
     x->p_value = ms;
 
-//-----------------------------------------------------------------------
 #ifdef DEBUG
     post(" A time (ms) data is %ld ",ms);
 #endif
-//-----------------------------------------------------------------------
     
     convertBpm2Ms_bang(x);
 
@@ -258,13 +250,10 @@ void convertBpm2Ms_int(t_convertBpm2Ms *x, long n){
 void convertBpm2Ms_bang(t_convertBpm2Ms *x)
 {
     outlet_float(x->p_outlet, x->p_value);
-
     
-//-----------------------------------------------------------------------
 #ifdef DEBUG
     post(" The output of a time (ms) data is %ld ", x->p_value);
 #endif
-//-----------------------------------------------------------------------
     
     return;
 }
