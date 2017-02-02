@@ -36,7 +36,7 @@ This example is exchanged BPM to Millisecond from Pulse Sensor (and Arduino).
 <br>
 
 ## Copyright
-© 1990- All Rights Reserved.  Max is a trademark of Cycling ’74/IRCAM, l’Institut de Recherche et Coo¨rdination Acoustique/Musique. https://cycling74.com
+© 1990 All Rights Reserved.  Max is a trademark of Cycling ’74/IRCAM, l’Institut de Recherche et Coo¨rdination Acoustique/Musique. https://cycling74.com
 
 ## License
 ##### About this manual and image files.
