@@ -49,4 +49,4 @@ Released under the MIT license. http://opensource.org/licenses/mit-license.php
 Released under the GNU General Public License.
 
 ## Credit
-Electronics:   Show Kawabata(5ide6urns lab) http://dum6sen5e.com    
+Programmer:   Show Kawabata(5ide6urns lab) http://dum6sen5e.com    
