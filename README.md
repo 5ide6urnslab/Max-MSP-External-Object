@@ -49,4 +49,4 @@ Released under the MIT license. http://opensource.org/licenses/mit-license.php
 Released under the GNU General Public License.
 
 ## Credit
-Programmer:   [Show Kawabata](http://cargocollective.com/dum6sen5e) (5ide6urns lab)
+Programmer:   [Show Kawabata](http://www.dum6sen5e.com) (5ide6urns lab)
